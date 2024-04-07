@@ -246,6 +246,14 @@
       },
     });
   </script>
+  <script>
+    const toggleMenuButton = document.getElementById('toggle-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    toggleMenuButton.addEventListener('click', () => {
+      mobileMenu.style.display = mobileMenu.style.display === 'none' ? 'block' : 'none';
+    });
+  </script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLJ7GZ2LCT"></script>
 <script>
